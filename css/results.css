@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans";
+}
+
+label {
+    color: orange;
+    font-weight: bold;
+}
+
+.sublabel {
+    color: skyblue;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 2px;
+    float: left;
+}
+
+.results {
+    font-size: 14px;
+}
+
+.gap {
+    margin-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pac-icon {
+    width: 0;
+    background-image: none;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        display: block;
+        width: 100%;
+    }
+    #logo {
+        display: block;
+        margin: auto;
+        padding: 20px;
+    }
+}

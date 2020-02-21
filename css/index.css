@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+label {
+    color: orange;
+    font-size: 20px;
+}
+
+.sublabel {
+    color: skyblue;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 10px 10px 10px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.focused {
+    box-shadow: 0 0 15px #87CEEB;
+}
+
+.focused:hover {
+    box-shadow: 0 0 15px #4682B4;
+}
+
+.submit {
+    background-image: url('../img/search.png');
+    background-color: transparent;
+    border-style: none;
+    width: 128px;
+    height: 128px;
+}
+
+.submit:hover {
+    background-image: url('../img/search_o.png');
+}
+
+.pac-icon {
+    width: 0;
+    background-image: none;
+}
+
+@media (max-width: 767px) {
+    #logo {
+        width: 100%;
+        height: auto;
+    }
+}
