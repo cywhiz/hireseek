@@ -1,47 +1,48 @@
 body {
-    font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 label {
-    color: orange;
-    font-weight: bold;
+  color: orange;
+  font-weight: bold;
 }
 
 .sublabel {
-    color: skyblue;
-    margin-right: 10px;
+  color: #0099cc;
+  margin-right: 10px;
 }
 
-input[type="checkbox"] {
-    margin-right: 2px;
-    float: left;
+input[type='checkbox'] {
+  margin-right: 2px;
+  float: left;
 }
 
 .results {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .gap {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
-.pac-icon {
-    width: 0;
-    background-image: none;
+thead tr {
+  background: #0099cc;
+  color: white;
 }
 
 @media (max-width: 767px) {
-    .btn {
-        display: block;
-        width: 100%;
-    }
-    #logo {
-        display: block;
-        margin: auto;
-        padding: 20px;
-    }
+  .btn {
+    display: block;
+    width: 100%;
+  }
+
+  #logo {
+    display: block;
+    margin: auto;
+    padding: 20px;
+  }
 }

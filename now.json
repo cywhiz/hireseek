@@ -1,12 +1,14 @@
 {
-    "version": 2,
-    "builds": [
+  "version": 2,
+  "cleanUrls": true,
+  "builds": [
     {
-        "src": "*.php",
-        "use": "now-php"
+      "src": "*.php",
+      "use": "now-php"
     },
     {
-        "src": "!(*.php)",
-        "use": "@now/static"
-    }]
+      "src": "!(*.php)",
+      "use": "@now/static"
+    }
+  ]
 }
