@@ -18,7 +18,7 @@ function getJSON($start, $limit)
         }
 
         if (isset($_GET['junior'])) {
-            $query .= urlencode('title:(grad or college or university or entry or junior or jr or campus or intern or or internship or coop or associate or student or trainee)');
+            $query .= urlencode('title:(grad or college or university or entry or junior or jr or campus or intern or internship or coop or associate or student or trainee)');
         }
 
         $direct = isset($_GET['direct']) ? 'employer' : '';

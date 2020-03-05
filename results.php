@@ -82,7 +82,7 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBSPlslu9t_J7MhS3TeOf3vlBivIsSRts0">
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCghkflS7rVe6msnwgFYmYwwA_noh5ZdvI">
     </script>
     <script src="https://cdn.datatables.net/v/bs/dt-1.10.20/fh-3.1.6/r-2.2.3/datatables.min.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/natural.js"></script>

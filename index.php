@@ -71,7 +71,7 @@ function setSelected()
         </div>
     </div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBSPlslu9t_J7MhS3TeOf3vlBivIsSRts0">
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCghkflS7rVe6msnwgFYmYwwA_noh5ZdvI">
     </script>
     <script src="js/autocomplete.js"></script>
 </body>
