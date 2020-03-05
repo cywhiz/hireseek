@@ -32,7 +32,7 @@
     }
     function setSelected()
     {
-        $json = json_decode(file_get_contents('./countries.json'), true);
+        $json = json_decode(file_get_contents(__DIR__ . '/countries.json'), true);
         echo '<select class="form-control" id="country" name="country">';
         foreach ($json as $k => $v) {
             echo '<option ' . isSelected($k) . ' value="' . $k . '">' . $v . '</option>';

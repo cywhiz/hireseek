@@ -1,7 +1,7 @@
 <?php
 function setSelected()
 {
-    $json = json_decode(file_get_contents('./countries.json'), true);
+    $json = json_decode(file_get_contents(__DIR__ . '/countries.json'), true);
     foreach ($json as $k => $v) {
         echo '<option value="' . $k . '">' . $v . '</option>';
     }
